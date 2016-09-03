@@ -1,5 +1,7 @@
-# es_spark
+es_spark
+
 Elastic Search access from Spark
+
 Example of elasticsearch index read access from Spark
 Tested with spark 2.1.6, elasticsearch-hadoop-2.4.0.jar, elasticsearch 2.3.1
 ./bin/spark-submit --driver-class-path /path/to/elasticsearch-hadoop-2.4.0.jar \
