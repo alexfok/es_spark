@@ -8,7 +8,7 @@
 # Tested with spark 2.1.6
 #  ./bin/spark-submit counts_aggreg.py 11.txt
 #
-# The script keeps its state between invocations in file “~/sum.txt”
+# The script keeps its state between invocations in file “~/sum.txt
 # You can see it this way:
 # more ~/sum.txt/part-00000
 
