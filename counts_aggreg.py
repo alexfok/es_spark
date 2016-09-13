@@ -6,7 +6,7 @@
 # aa 11
 # bb 22
 # Tested with spark 2.1.6
-#  ./bin/spark-submit counts_aggreg.py 11.txt
+# spark-submit --master local --deploy-mode client --executor-memory 1g --name counts_aggregation  counts_aggreg.py 11.txt
 #
 # The script keeps its state between invocations in file ~/sum.txt
 # You can see it this way:
