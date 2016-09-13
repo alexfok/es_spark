@@ -1,3 +1,11 @@
+#
+# Alex Fok: Sep 2016
+# Example of elasticsearch index read access from Spark
+# Tested with spark 2.1.6, elasticsearch-hadoop-2.4.0.jar, elasticsearch 2.3.1
+#  ./bin/spark-submit --driver-class-path /path/to/elasticsearch-hadoop-2.4.0.jar \
+#        /path/to/examples/el_spark.py.py <host> <index> <type>
+#
+
 import os
 import shutil
 import sys
